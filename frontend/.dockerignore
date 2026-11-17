@@ -1,0 +1,12 @@
+node_modules
+dist
+.pnpm-store
+.git
+.gitignore
+*.log
+.env
+.env.*
+*.key
+*.p12
+*.pem
+*.pfx
