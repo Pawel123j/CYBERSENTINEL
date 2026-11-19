@@ -17,9 +17,9 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "httpx2>=2,<3",
+    "httpx2>=2.12,<3",  # CVE-2026-84379, CVE-2026-84380, CVE-2026-84382
     "mypy>=1.13,<2",
-    "pytest>=8.3,<9",
+    "pytest>=9.0.3,<10",  # CVE-2025-71176
     "ruff>=0.8,<1",
 ]
 
