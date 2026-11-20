@@ -16,13 +16,13 @@ importers:
     dependencies:
       '@tanstack/react-query':
         specifier: ^5.87.1
-        version: 5.102.8(react@19.2.8)
+        version: 5.102.8(react@19.3.1)
       react:
-        specifier: ^19.1.1
-        version: 19.2.8
+        specifier: ^19.3.1
+        version: 19.3.1
       react-dom:
         specifier: ^19.1.1
-        version: 19.2.8(react@19.2.8)
+        version: 19.2.8(react@19.3.1)
     devDependencies:
       '@eslint/js':
         specifier: ^9.35.0
@@ -34,11 +34,11 @@ importers:
         specifier: ^24.3.0
         version: 24.13.3
       '@types/react':
-        specifier: ^19.1.12
-        version: 19.2.18
+        specifier: ^19.3.0
+        version: 19.3.0
       '@types/react-dom':
         specifier: ^19.1.9
-        version: 19.2.5(@types/react@19.2.18)
+        version: 19.2.5(@types/react@19.3.0)
       '@vitejs/plugin-react':
         specifier: ^5.0.2
         version: 5.2.0(supports-color@7.2.0)(vite@7.3.8(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0))
@@ -661,8 +661,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.18':
-    resolution: {integrity: sha512-AnzbBERsrLKtk2XSfTbYRLjQPdy116Sty4q+T+Bp3IC4l6jNBvreVPAHmpq9qhXQM7CXZPjLVmGMw9sy+hxQ3w==}
+  '@types/react@19.3.0':
+    resolution: {integrity: sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==}
 
   '@typescript-eslint/eslint-plugin@8.68.0':
     resolution: {integrity: sha512-WASHDpCm6qO5jj9g1a+8NiW5+GCkAyLReR56/4VruYmNgfUmqpxOfZ2Yfb8xGfJPWv5Qi6LSD8sXdces3vbp/Q==}
@@ -801,8 +801,8 @@ packages:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
-  csstype@3.2.3:
-    resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
+  csstype@3.2.4:
+    resolution: {integrity: sha512-PoKaoPzQapnEoqUSnHx1u6W6ku8CVEgKsnpmmzU3m1nwkidpPBQ8V/Zq2+bWNrsOKoKLwTGdbx6xF7BXP1zLVQ==}
 
   debug@4.4.3:
     resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
@@ -1184,8 +1184,8 @@ packages:
     resolution: {integrity: sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw==}
     engines: {node: '>=0.10.0'}
 
-  react@19.2.8:
-    resolution: {integrity: sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==}
+  react@19.3.1:
+    resolution: {integrity: sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw==}
     engines: {node: '>=0.10.0'}
 
   resolve-from@4.0.0:
@@ -1755,10 +1755,10 @@ snapshots:
 
   '@tanstack/query-core@5.102.8': {}
 
-  '@tanstack/react-query@5.102.8(react@19.2.8)':
+  '@tanstack/react-query@5.102.8(react@19.3.1)':
     dependencies:
       '@tanstack/query-core': 5.102.8
-      react: 19.2.8
+      react: 19.3.1
 
   '@types/babel__core@7.20.5':
     dependencies:
@@ -1789,13 +1789,13 @@ snapshots:
     dependencies:
       undici-types: 7.18.2
 
-  '@types/react-dom@19.2.5(@types/react@19.2.18)':
+  '@types/react-dom@19.2.5(@types/react@19.3.0)':
     dependencies:
-      '@types/react': 19.2.18
+      '@types/react': 19.3.0
 
-  '@types/react@19.2.18':
+  '@types/react@19.3.0':
     dependencies:
-      csstype: 3.2.3
+      csstype: 3.2.4
 
   '@typescript-eslint/eslint-plugin@8.68.0(@typescript-eslint/parser@8.68.0(eslint@9.39.5(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)':
     dependencies:
@@ -1967,7 +1967,7 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  csstype@3.2.3: {}
+  csstype@3.2.4: {}
 
   debug@4.4.3(supports-color@7.2.0):
     dependencies:
@@ -2305,14 +2305,14 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  react-dom@19.2.8(react@19.2.8):
+  react-dom@19.2.8(react@19.3.1):
     dependencies:
-      react: 19.2.8
+      react: 19.3.1
       scheduler: 0.27.0
 
   react-refresh@0.18.0: {}
 
-  react@19.2.8: {}
+  react@19.3.1: {}
 
   resolve-from@4.0.0: {}
 
