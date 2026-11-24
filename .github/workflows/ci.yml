@@ -39,6 +39,17 @@ jobs:
       - name: Dependency audit
         run: pip freeze --exclude-editable | pip-audit -r /dev/stdin --strict
 
+      - name: Verify the running application and database outage behavior
+        env:
+          CYBERSENTINEL_RUN_STACK_TESTS: "1"
+        run: |
+          export POSTGRES_PASSWORD="$(openssl rand -hex 32)"
+          trap 'docker compose down --volumes' EXIT
+          docker compose up --build --wait --wait-timeout 180
+          pytest -q tests/integration
+          docker compose stop postgres
+          CYBERSENTINEL_EXPECT_DATABASE_UNAVAILABLE=1 pytest -q tests/integration
+
   frontend:
     runs-on: ubuntu-latest
     timeout-minutes: 15
